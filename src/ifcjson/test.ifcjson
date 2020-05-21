@@ -1,0 +1,815 @@
+{
+    "data": [
+        {
+            "Type": "IfcActuator",
+            "GlobalId": "2FYWBVT41AGvDTbNjm1lD3",
+            "Name": "Cube",
+            "ObjectPlacement": {
+                "Type": "IfcLocalPlacement",
+                "RelativePlacement": {
+                    "Type": "IfcAxis2Placement3D",
+                    "Location": {
+                        "Type": "IfcCartesianPoint",
+                        "Coordinates": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "Axis": {
+                        "Type": "IfcDirection",
+                        "DirectionRatios": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    "RefDirection": {
+                        "Type": "IfcDirection",
+                        "DirectionRatios": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            },
+            "Representation": {
+                "Type": "IfcProductDefinitionShape",
+                "Representations": [
+                    {
+                        "Type": "IfcShapeRepresentation",
+                        "ContextOfItems": {
+                            "Type": "IfcGeometricRepresentationSubContext",
+                            "ContextIdentifier": "Body",
+                            "ContextType": "Model",
+                            "ParentContext": {
+                                "Type": "IfcGeometricRepresentationContext",
+                                "ContextType": "Model",
+                                "CoordinateSpaceDimension": 3,
+                                "Precision": 1e-05,
+                                "WorldCoordinateSystem": {
+                                    "Type": "IfcAxis2Placement3D",
+                                    "Location": {
+                                        "Type": "IfcCartesianPoint",
+                                        "Coordinates": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "Axis": {
+                                        "Type": "IfcDirection",
+                                        "DirectionRatios": [
+                                            0.0,
+                                            0.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "RefDirection": {
+                                        "Type": "IfcDirection",
+                                        "DirectionRatios": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                }
+                            },
+                            "TargetView": "MODEL_VIEW"
+                        },
+                        "RepresentationIdentifier": "Body",
+                        "RepresentationType": "MappedRepresentation",
+                        "Items": [
+                            {
+                                "Type": "IfcMappedItem",
+                                "MappingSource": {
+                                    "Type": "IfcRepresentationMap",
+                                    "MappingOrigin": {
+                                        "Type": "IfcAxis2Placement3D",
+                                        "Location": {
+                                            "Type": "IfcCartesianPoint",
+                                            "Coordinates": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ]
+                                        },
+                                        "Axis": {
+                                            "Type": "IfcDirection",
+                                            "DirectionRatios": [
+                                                0.0,
+                                                0.0,
+                                                1.0
+                                            ]
+                                        },
+                                        "RefDirection": {
+                                            "Type": "IfcDirection",
+                                            "DirectionRatios": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "MappedRepresentation": {
+                                        "Type": "IfcShapeRepresentation",
+                                        "ContextOfItems": {
+                                            "Type": "IfcGeometricRepresentationSubContext",
+                                            "ContextIdentifier": "Body",
+                                            "ContextType": "Model",
+                                            "ParentContext": {
+                                                "Type": "IfcGeometricRepresentationContext",
+                                                "ContextType": "Model",
+                                                "CoordinateSpaceDimension": 3,
+                                                "Precision": 1e-05,
+                                                "WorldCoordinateSystem": {
+                                                    "Type": "IfcAxis2Placement3D",
+                                                    "Location": {
+                                                        "Type": "IfcCartesianPoint",
+                                                        "Coordinates": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ]
+                                                    },
+                                                    "Axis": {
+                                                        "Type": "IfcDirection",
+                                                        "DirectionRatios": [
+                                                            0.0,
+                                                            0.0,
+                                                            1.0
+                                                        ]
+                                                    },
+                                                    "RefDirection": {
+                                                        "Type": "IfcDirection",
+                                                        "DirectionRatios": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "TargetView": "MODEL_VIEW"
+                                        },
+                                        "RepresentationIdentifier": "Body",
+                                        "RepresentationType": "Brep",
+                                        "Items": [
+                                            {
+                                                "Type": "IfcFacetedBrep",
+                                                "Outer": {
+                                                    "Type": "IfcClosedShell",
+                                                    "CfsFaces": [
+                                                        {
+                                                            "Type": "IfcFace",
+                                                            "Bounds": [
+                                                                {
+                                                                    "Type": "IfcFaceOuterBound",
+                                                                    "Bound": {
+                                                                        "Type": "IfcPolyLoop",
+                                                                        "Polygon": [
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    -1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    -1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "Orientation": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "IfcFace",
+                                                            "Bounds": [
+                                                                {
+                                                                    "Type": "IfcFaceOuterBound",
+                                                                    "Bound": {
+                                                                        "Type": "IfcPolyLoop",
+                                                                        "Polygon": [
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    -1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    -1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    -1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    -1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "Orientation": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "IfcFace",
+                                                            "Bounds": [
+                                                                {
+                                                                    "Type": "IfcFaceOuterBound",
+                                                                    "Bound": {
+                                                                        "Type": "IfcPolyLoop",
+                                                                        "Polygon": [
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    -1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    -1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "Orientation": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "IfcFace",
+                                                            "Bounds": [
+                                                                {
+                                                                    "Type": "IfcFaceOuterBound",
+                                                                    "Bound": {
+                                                                        "Type": "IfcPolyLoop",
+                                                                        "Polygon": [
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    -1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    -1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "Orientation": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "IfcFace",
+                                                            "Bounds": [
+                                                                {
+                                                                    "Type": "IfcFaceOuterBound",
+                                                                    "Bound": {
+                                                                        "Type": "IfcPolyLoop",
+                                                                        "Polygon": [
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    -1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    -1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "Orientation": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "IfcFace",
+                                                            "Bounds": [
+                                                                {
+                                                                    "Type": "IfcFaceOuterBound",
+                                                                    "Bound": {
+                                                                        "Type": "IfcPolyLoop",
+                                                                        "Polygon": [
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    -1.0,
+                                                                                    1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    1.0,
+                                                                                    1.0
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "Type": "IfcCartesianPoint",
+                                                                                "Coordinates": [
+                                                                                    1.0,
+                                                                                    1.0,
+                                                                                    -1.0
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "Orientation": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "MappingTarget": {
+                                    "Type": "IfcCartesianTransformationOperator3D",
+                                    "Axis1": {
+                                        "Type": "IfcDirection",
+                                        "DirectionRatios": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "Axis2": {
+                                        "Type": "IfcDirection",
+                                        "DirectionRatios": [
+                                            0.0,
+                                            1.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "LocalOrigin": {
+                                        "Type": "IfcCartesianPoint",
+                                        "Coordinates": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "Scale": 1.0,
+                                    "Axis3": {
+                                        "Type": "IfcDirection",
+                                        "DirectionRatios": [
+                                            0.0,
+                                            0.0,
+                                            1.0
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "PredefinedType": "ELECTRICACTUATOR"
+        },
+        {
+            "Type": "IfcRelAssociatesMaterial",
+            "GlobalId": "2tfhI8DiT4mB3740PrZKZM",
+            "RelatedObjects": [
+                {
+                    "Type": "IfcActuator",
+                    "ref": "2FYWBVT41AGvDTbNjm1lD3"
+                }
+            ],
+            "RelatingMaterial": {
+                "Type": "IfcMaterial",
+                "Name": "Material"
+            }
+        },
+        {
+            "Type": "IfcBuildingStorey",
+            "GlobalId": "01cJsdnlr9Z8MqHnT6l8OF",
+            "Name": "Ground Floor",
+            "ObjectPlacement": {
+                "Type": "IfcLocalPlacement",
+                "PlacementRelTo": {
+                    "Type": "IfcLocalPlacement",
+                    "PlacementRelTo": {
+                        "Type": "IfcLocalPlacement",
+                        "RelativePlacement": {
+                            "Type": "IfcAxis2Placement3D",
+                            "Location": {
+                                "Type": "IfcCartesianPoint",
+                                "Coordinates": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "Axis": {
+                                "Type": "IfcDirection",
+                                "DirectionRatios": [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            "RefDirection": {
+                                "Type": "IfcDirection",
+                                "DirectionRatios": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "RelativePlacement": {
+                        "Type": "IfcAxis2Placement3D",
+                        "Location": {
+                            "Type": "IfcCartesianPoint",
+                            "Coordinates": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "Axis": {
+                            "Type": "IfcDirection",
+                            "DirectionRatios": [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        "RefDirection": {
+                            "Type": "IfcDirection",
+                            "DirectionRatios": [
+                                1.0,
+                                0.0,
+                                0.0
+                            ]
+                        }
+                    }
+                },
+                "RelativePlacement": {
+                    "Type": "IfcAxis2Placement3D",
+                    "Location": {
+                        "Type": "IfcCartesianPoint",
+                        "Coordinates": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "Axis": {
+                        "Type": "IfcDirection",
+                        "DirectionRatios": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    "RefDirection": {
+                        "Type": "IfcDirection",
+                        "DirectionRatios": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "Type": "IfcRelContainedInSpatialStructure",
+            "GlobalId": "1WsMDAA8b6B9aR74VmRCY$",
+            "RelatedElements": [
+                {
+                    "Type": "IfcActuator",
+                    "ref": "2FYWBVT41AGvDTbNjm1lD3"
+                }
+            ],
+            "RelatingStructure": {
+                "Type": "IfcBuildingStorey",
+                "ref": "01cJsdnlr9Z8MqHnT6l8OF"
+            }
+        },
+        {
+            "Type": "IfcProject",
+            "GlobalId": "11TgYylTHBLuzneR8_MJpY",
+            "Name": "My Project",
+            "RepresentationContexts": [
+                {
+                    "Type": "IfcGeometricRepresentationContext",
+                    "ContextType": "Model",
+                    "CoordinateSpaceDimension": 3,
+                    "Precision": 1e-05,
+                    "WorldCoordinateSystem": {
+                        "Type": "IfcAxis2Placement3D",
+                        "Location": {
+                            "Type": "IfcCartesianPoint",
+                            "Coordinates": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "Axis": {
+                            "Type": "IfcDirection",
+                            "DirectionRatios": [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        "RefDirection": {
+                            "Type": "IfcDirection",
+                            "DirectionRatios": [
+                                1.0,
+                                0.0,
+                                0.0
+                            ]
+                        }
+                    }
+                }
+            ],
+            "UnitsInContext": {
+                "Type": "IfcUnitAssignment",
+                "Units": [
+                    {
+                        "Type": "IfcSIUnit",
+                        "UnitType": "LENGTHUNIT",
+                        "Name": "METRE"
+                    },
+                    {
+                        "Type": "IfcSIUnit",
+                        "UnitType": "AREAUNIT",
+                        "Name": "SQUARE_METRE"
+                    },
+                    {
+                        "Type": "IfcSIUnit",
+                        "UnitType": "VOLUMEUNIT",
+                        "Name": "CUBIC_METRE"
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "IfcSite",
+            "GlobalId": "0n9UQdoGj6O8DvWl1MfuHh",
+            "Name": "My Site",
+            "ObjectPlacement": {
+                "Type": "IfcLocalPlacement",
+                "RelativePlacement": {
+                    "Type": "IfcAxis2Placement3D",
+                    "Location": {
+                        "Type": "IfcCartesianPoint",
+                        "Coordinates": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "Axis": {
+                        "Type": "IfcDirection",
+                        "DirectionRatios": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    "RefDirection": {
+                        "Type": "IfcDirection",
+                        "DirectionRatios": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "Type": "IfcRelAggregates",
+            "GlobalId": "24f62z32934hMNxo6N4P5x",
+            "RelatingObject": {
+                "Type": "IfcProject",
+                "ref": "11TgYylTHBLuzneR8_MJpY"
+            },
+            "RelatedObjects": [
+                {
+                    "Type": "IfcSite",
+                    "ref": "0n9UQdoGj6O8DvWl1MfuHh"
+                }
+            ]
+        },
+        {
+            "Type": "IfcBuilding",
+            "GlobalId": "0GB$HnzJf0uxKiXblytthD",
+            "Name": "My Building",
+            "ObjectPlacement": {
+                "Type": "IfcLocalPlacement",
+                "PlacementRelTo": {
+                    "Type": "IfcLocalPlacement",
+                    "RelativePlacement": {
+                        "Type": "IfcAxis2Placement3D",
+                        "Location": {
+                            "Type": "IfcCartesianPoint",
+                            "Coordinates": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "Axis": {
+                            "Type": "IfcDirection",
+                            "DirectionRatios": [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        "RefDirection": {
+                            "Type": "IfcDirection",
+                            "DirectionRatios": [
+                                1.0,
+                                0.0,
+                                0.0
+                            ]
+                        }
+                    }
+                },
+                "RelativePlacement": {
+                    "Type": "IfcAxis2Placement3D",
+                    "Location": {
+                        "Type": "IfcCartesianPoint",
+                        "Coordinates": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "Axis": {
+                        "Type": "IfcDirection",
+                        "DirectionRatios": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    "RefDirection": {
+                        "Type": "IfcDirection",
+                        "DirectionRatios": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "Type": "IfcRelAggregates",
+            "GlobalId": "1xcHPgG$bETQcE1kS$rZWz",
+            "RelatingObject": {
+                "Type": "IfcSite",
+                "ref": "0n9UQdoGj6O8DvWl1MfuHh"
+            },
+            "RelatedObjects": [
+                {
+                    "Type": "IfcBuilding",
+                    "ref": "0GB$HnzJf0uxKiXblytthD"
+                }
+            ]
+        },
+        {
+            "Type": "IfcRelAggregates",
+            "GlobalId": "1LIbZvo2TBEOpe581bbHuj",
+            "RelatingObject": {
+                "Type": "IfcBuilding",
+                "ref": "0GB$HnzJf0uxKiXblytthD"
+            },
+            "RelatedObjects": [
+                {
+                    "Type": "IfcBuildingStorey",
+                    "ref": "01cJsdnlr9Z8MqHnT6l8OF"
+                }
+            ]
+        }
+    ]
+}
