@@ -31,7 +31,7 @@ DATA;
 #24=IFCOBJECTIVE('Beauty','The built form should be beautiful',.HARD.,$,$,$,$,$,$,.DESIGNINTENT.,$);
 #25=IFCOBJECTIVE('Safety','No facilities exist to generate killer artificial intelligence',.HARD.,$,$,$,$,$,$,.HEALTHANDSAFETY.,$);
 #26=IFCPROPERTYSINGLEVALUE('Name',$,IFCLABEL('EPSG:7856'),$);
-#27=IFCPROPERTYSINGLEVALUE('VerticalDatum',$,IFCIDENTIFIER('EPSG:5111'),$);
+#27=IFCPROPERTYSINGLEVALUE('VerticalDatum',$,IFCIDENTIFIER('EPSG:5711'),$);
 #28=IFCPROPERTYSINGLEVALUE('MapUnit',$,IFCIDENTIFIER('METRE'),$);
 #29=IFCPROPERTYSET('1UvkckG31D$f5JAKi2o_1C',#20,'EPset_ProjectedCRS',$,(#26,#27,#28));
 #30=IFCPROPERTYSINGLEVALUE('Eastings',$,IFCLENGTHMEASURE(334871.85),$);
