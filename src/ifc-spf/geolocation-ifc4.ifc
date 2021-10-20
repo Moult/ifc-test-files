@@ -31,7 +31,7 @@ DATA;
 #24=IFCOBJECTIVE('Beauty','The built form should be beautiful',.HARD.,$,$,$,$,$,$,.DESIGNINTENT.,$);
 #25=IFCOBJECTIVE('Safety','No facilities exist to generate killer artificial intelligence',.HARD.,$,$,$,$,$,$,.HEALTHANDSAFETY.,$);
 #26=IFCSIUNIT(*,.LENGTHUNIT.,$,.METRE.);
-#27=IFCPROJECTEDCRS('EPSG:7856','','','EPSG:5111','','',#26);
+#27=IFCPROJECTEDCRS('EPSG:7856','','','EPSG:5711','','',#26);
 #28=IFCMAPCONVERSION(#21,#27,334871.85,6252295.02,12.,2.59808,-1.5,1.);
 #29=IFCCARTESIANPOINT((-1.,0.,-1.));
 #30=IFCCARTESIANPOINT((1.,0.,1.));
